@@ -30,9 +30,6 @@ main{
   
 }
 
-.screen{
-
-}
 
 .calc-screen{
   width: 100%;
@@ -41,7 +38,7 @@ main{
   text-align: right;
   border: none;
   background-color: white;
-  border: 1px solid red;
+
 }
 
 
@@ -56,7 +53,7 @@ main{
 }
 button{
   flex: 1 0 16%;
-  font-size: 3rem;
+  font-size: 2.5rem;
   height: 60px;
   border-radius: 30px;
   padding: .8rem;
@@ -65,4 +62,10 @@ button{
   color: black;
   margin: 7px;
   padding: 5px;
+}
+
+.all-clear{
+  background-color: red;
+  color: white;
+  font-size: 2.2rem;
 }
